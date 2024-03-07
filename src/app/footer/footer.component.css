@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; /* Ajoute un espace autour du contenu du footer (facultatif) */
+    background-color: #2B37D9; /* Bleu */
+}
+
+.logo_isen {
+    width: 125px; /* Ajuste la largeur de l'image selon tes besoins */
+    height: auto; /* Ajuste la hauteur de l'image de manière proportionnelle */
+}
+
+/* Ajoute d'autres styles si nécessaire pour les paragraphes */
+footer p {
+    margin: 0; /* Supprime la marge par défaut du paragraphe */
+}

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+.index {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 100px 10px; /* Ajout d'espace avant la première phrase */
+}
+
+.circle {
+    width: 150px; /* Ajustez la taille du cercle selon vos besoins */
+    height: 150px; /* Ajustez la taille du cercle selon vos besoins */
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Pour centrer le cercle horizontalement */
+    font-size: 60px;
+}
+
+.red {
+    background-color: red 
+}
+
+.orange {
+    background-color: orange 
+}
+
+.green {
+    background-color: green 
+}

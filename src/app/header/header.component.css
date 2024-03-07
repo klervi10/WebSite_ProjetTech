@@ -1,0 +1,53 @@
+header {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: #2B37D9; /* Bleu */
+    color: #ffffff;
+}
+
+.logo {
+    width: 500px; /* ajustez la largeur du logo selon vos besoins */
+    height: auto; /* permet de conserver les proportions de l'image */
+    position: relative;
+    margin-bottom: -150px; /* Ajoute une marge en bas du logo */
+}
+
+h2 {
+    position: relative; /* Pour positionner le texte au-dessus des images */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    margin-top: 0; /* Réinitialise la marge en haut à zéro */
+    margin-bottom: 50px; /* Ajoute une marge en bas du titre */
+}
+
+h1{
+    position: relative;
+    z-index: 1;
+    color: #ffffff; /* Blanc */
+    font-family: 'Amatic SC', cursive;
+    font-size: 8em;
+}
+
+
+/* Style pour les boutons */
+button {
+    padding: 15px 20px; /*longeur et hauteur des boutons*/
+    background-color: #ffffff; /* blanc */
+    color: #ffffff; /* Couleur du texte (blanc) */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease; /* Transition douce de la couleur de fond */
+    text-decoration: none; /* Enlève le soulignement du texte */
+    font-size: large;
+}
+
+/* Change la couleur de fond des boutons au survol */
+button:hover {
+    background-color: #236699; /* Bleu plus clair */
+    color: #ffffff; /* Nouvelle couleur du texte au survol (blanc) */
+    text-decoration: none; /* Enlève le soulignement du texte */
+}
+
