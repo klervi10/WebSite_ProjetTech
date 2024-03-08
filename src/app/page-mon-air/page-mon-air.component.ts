@@ -7,6 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class PageMonAirComponent {
   @Input() nombre: number = 5; //récupérer l'indice de la bdd 
+  @Input() vTVOC: number=10 //récupérer de la BDD
+  @Input() vCO2: number=20 //récupérer de la BDD
+  @Input() vCH4: number=30 //récupérer de la BDD
 
 
   getColorClass(nombre: number): string {

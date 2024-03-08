@@ -7,6 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class PageMonEauComponent {
   @Input() nombre: number = 0; //récupérer l'indice de la bdd (de 0 à 5) 
+  @Input() vTurb: number=10 //récupérer de la BDD
+  @Input() vpH: number=20 //récupérer de la BDD
 
 
   getColorClass(nombre: number): string {
