@@ -14,8 +14,8 @@ body {
 
 .circle-container{
     position : absolute;
-    right: 23%;
-    margin-top: 5%; /* Espacement entre le texte et le cercle */
+    right: 27%;
+    margin-top: 12%; /* Espacement entre le texte et le cercle */
     
 }
 
