@@ -10,6 +10,7 @@ import { PageMonAirComponent } from './page-mon-air/page-mon-air.component';
 import { PageMonEauComponent } from './page-mon-eau/page-mon-eau.component';
 import { PageRegisterComponent } from './page-register/page-register.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

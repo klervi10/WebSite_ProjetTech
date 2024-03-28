@@ -4,6 +4,7 @@ footer {
     justify-content: space-between;
     padding: 10px; /* Ajoute un espace autour du contenu du footer (facultatif) */
     background-color: #2B37D9; /* Bleu */
+    color: white;
 }
 
 .logo_isen {
